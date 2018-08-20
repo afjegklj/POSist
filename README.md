@@ -1,1 +1,5 @@
 # POSist
+SETUP REQUIRED:
+PYTHON 3.7 
+MongoDB
+Node.js
