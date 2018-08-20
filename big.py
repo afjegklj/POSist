@@ -15,7 +15,6 @@ create table node (
   Phone int(),
   Value float(),
   Reference_NodeID int = null
-
   sort_order float
 );
 
@@ -47,7 +46,7 @@ db.node.Update(
 
 // Create multi set of first node according to row_number
 def add_list_node(self, node):
-        "add an node at the end of the list"
+        "add an nodeg at the end of the list"
 
         if not isinstance(node, ListNode):
             node = ListNode(node)
@@ -57,6 +56,18 @@ def add_list_node(self, node):
             self.tail.next = node
 			self.tail = node
 		 return
+
+//Add a new node to a particular set of node
+def insert_Node( self, prev_node, new_data):
+	if prev_nodeis None
+	print "The given previous node must exist."
+	return
+	new_node = node(new_data)
+	new_node = Node(new_data)
+	new_node.next = prev_node.next
+	prev_node.next = new_node
+	 
+
 
 
 
